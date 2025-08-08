@@ -29,31 +29,50 @@ Welcome to the **Forever E-Commerce Project** – a modern, responsive online sh
 
 ## 📁 Project Structure
 
-```forever-ecommerce/
+```ecommerce/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/                        # Static assets (images/icons)
+│   │
+│   ├── components/                   # Reusable UI components
+│   │   ├── BestSeller.jsx
+│   │   ├── CartTotal.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── LatestCollection.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── NewsletterBox.jsx
+│   │   ├── OurPolicy.jsx
+│   │   ├── ProductItem.jsx
+│   │   ├── RelatedProducts.jsx
+│   │   ├── SearchBar.jsx
+│   │   └── Title.jsx
+│   │
+│   ├── context/
+│   │   └── ShopContext.jsx           # Global state using Context API
+│   │
+│   ├── pages/                        # Application pages
+│   │   ├── About.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Collection.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Orders.jsx
+│   │   ├── PlaceOrder.jsx
+│   │   └── Product.jsx
+│   │
+│   ├── App.jsx                       # Root app component
+│   ├── index.css                     # Tailwind and global styles
+│   └── main.jsx                      # App entry point with routing/context
 │
-├── assets/               # Static assets like images and icons
-│
-├── components/           # Reusable UI components
-│   ├── ProductItem.jsx
-│   ├── Title.jsx
-│   ├── CartTotal.jsx
-│   └── NewsLetterBox.jsx
-│
-├── context/
-│   └── ShopContext.jsx   # Context API for global state (cart, currency, etc.)
-│
-├── pages/                # Main route pages
-│   ├── Home.jsx
-│   ├── Collection.jsx
-│   ├── Product.jsx
-│   ├── Cart.jsx
-│   ├── Orders.jsx
-│   ├── PlaceOrder.jsx
-│   ├── Contact.jsx
-│   ├── About.jsx
-│   └── Login.jsx
-│
-├── index.css             # Tailwind CSS setup and global styles
-├── main.jsx              # App entry point (router + context provider)
-└── README.md             # Project documentation```
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+```
 
