@@ -10,7 +10,7 @@ Welcome to the **Forever E-Commerce Project** – a modern, responsive online sh
 - 🧮 **Filter and sort** products by price or relevance
 - 📦 View detailed product info: images, sizes, prices, and descriptions
 - 🛒 Add items to the cart with **size selection** and quantity management
-- 🔐 User **authentication** with sign-up and login forms
+- 🔐 User sign-up and login forms
 - 🧾 Place orders with **payment method selection** (e.g., Cash on Delivery)
 - 📄 View **order history** and status
 - 📱 Fully **responsive** and mobile-friendly design
@@ -29,10 +29,31 @@ Welcome to the **Forever E-Commerce Project** – a modern, responsive online sh
 
 ## 📁 Project Structure
 
-📦 forever-ecommerce/
-├── 📁 assets/ → Images and static assets
-├── 📁 components/ → Reusable UI components (ProductItem, CartTotal, etc.)
-├── 📁 context/ShopContext → Global state for cart, currency, and products
-├── 📁 pages/ → Main routes/pages (Home, Collection, Cart, Orders, etc.)
-├── 📄 index.css → Tailwind CSS and global styles
-├── 📄 main.jsx → React entry point with router and context
+forever-ecommerce/
+│
+├── assets/               # Static assets like images and icons
+│
+├── components/           # Reusable UI components
+│   ├── ProductItem.jsx
+│   ├── Title.jsx
+│   ├── CartTotal.jsx
+│   └── NewsLetterBox.jsx
+│
+├── context/
+│   └── ShopContext.jsx   # Context API for global state (cart, currency, etc.)
+│
+├── pages/                # Main route pages
+│   ├── Home.jsx
+│   ├── Collection.jsx
+│   ├── Product.jsx
+│   ├── Cart.jsx
+│   ├── Orders.jsx
+│   ├── PlaceOrder.jsx
+│   ├── Contact.jsx
+│   ├── About.jsx
+│   └── Login.jsx
+│
+├── index.css             # Tailwind CSS setup and global styles
+├── main.jsx              # App entry point (router + context provider)
+└── README.md             # Project documentation
+
