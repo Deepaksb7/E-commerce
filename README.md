@@ -29,7 +29,7 @@ Welcome to the **Forever E-Commerce Project** – a modern, responsive online sh
 
 ## 📁 Project Structure
 
-forever-ecommerce/
+```forever-ecommerce/
 │
 ├── assets/               # Static assets like images and icons
 │
@@ -55,5 +55,5 @@ forever-ecommerce/
 │
 ├── index.css             # Tailwind CSS setup and global styles
 ├── main.jsx              # App entry point (router + context provider)
-└── README.md             # Project documentation
+└── README.md             # Project documentation```
 
