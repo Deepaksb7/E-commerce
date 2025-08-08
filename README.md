@@ -1,12 +1,38 @@
-# React + Vite
+# 🛍️ Forever E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Forever E-Commerce Project** – a modern, responsive online shopping platform built with **React.js** and **Tailwind CSS**. This application is designed to provide users with a seamless and enjoyable shopping experience from browsing to checkout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 Browse and search products by **category**, **subcategory**, and **keywords**
+- 🧮 **Filter and sort** products by price or relevance
+- 📦 View detailed product info: images, sizes, prices, and descriptions
+- 🛒 Add items to the cart with **size selection** and quantity management
+- 🔐 User **authentication** with sign-up and login forms
+- 🧾 Place orders with **payment method selection** (e.g., Cash on Delivery)
+- 📄 View **order history** and status
+- 📱 Fully **responsive** and mobile-friendly design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – Frontend library
+- **React Router** – Client-side routing
+- **Context API** – Global state management
+- **Tailwind CSS** – Styling and layout
+- **Modern JavaScript (ES6+)**
+
+---
+
+## 📁 Project Structure
+
+📦 forever-ecommerce/
+├── 📁 assets/ → Images and static assets
+├── 📁 components/ → Reusable UI components (ProductItem, CartTotal, etc.)
+├── 📁 context/ShopContext → Global state for cart, currency, and products
+├── 📁 pages/ → Main routes/pages (Home, Collection, Cart, Orders, etc.)
+├── 📄 index.css → Tailwind CSS and global styles
+├── 📄 main.jsx → React entry point with router and context
