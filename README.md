@@ -33,9 +33,7 @@ Welcome to the **Forever E-Commerce Project** – a modern, responsive online sh
 
 <img width="1911" height="3492" alt="image" src="https://github.com/user-attachments/assets/62654171-1391-4c5c-99d9-1108928c1e2a" />
 
-<img width="1911" height="3492" alt="image" src="https://github.com/user-attachments/assets/1df357d4-7cdd-425f-b888-d644a455a17e" />
-
-
+<img width="1911" height="1427" alt="image" src="https://github.com/user-attachments/assets/4d44cf79-8176-4a86-9ed8-69482a9c2b39" />
 
 ### 📱 Mobile View
 
