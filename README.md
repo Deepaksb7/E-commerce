@@ -27,6 +27,24 @@ Welcome to the **Forever E-Commerce Project** – a modern, responsive online sh
 
 ---
 
+## 📸 Screenshots
+
+### 🖥️ Desktop View
+
+<img width="1911" height="3492" alt="image" src="https://github.com/user-attachments/assets/62654171-1391-4c5c-99d9-1108928c1e2a" />
+
+<img width="1911" height="3492" alt="image" src="https://github.com/user-attachments/assets/1df357d4-7cdd-425f-b888-d644a455a17e" />
+
+
+
+### 📱 Mobile View
+
+<img width="383" height="4395" alt="image" src="https://github.com/user-attachments/assets/03a55279-fd15-4549-9407-6f2b121d8890" />
+
+<img width="383" height="1393" alt="image" src="https://github.com/user-attachments/assets/89b03817-d973-4a2a-9ff0-fcee8e398190" />
+
+---
+
 ## 📁 Project Structure
 
 ```ecommerce/
